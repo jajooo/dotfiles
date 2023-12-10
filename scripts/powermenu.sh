@@ -1,0 +1,27 @@
+#!/bin/bash
+
+option1="  lock"
+option2=" logout"
+option3="  reboot"
+option4="  power off"
+
+options="$option1\n"
+options="$options$option2\n"
+options="$options$option3\n$option4"
+
+choice=$(echo -e "$options" | rofi -dmenu -i -no-show-icons -l 4 -width 30 -p "")
+
+case $choice in
+	$option1)
+		slock ;;
+	$option2)
+		loginctl terminate-user $USER ;;
+	$option3)
+		systemctl reboot ;;
+	$option4)
+		systemctl poweroff ;;
+esac
+
+ 
+#choice=$(echo -e "$options" | rofi -dmenu -i -no-show-icons -l 4 -width 30 -p "Powermenu")
+#choice=$(echo -e "$options" | wofi -nfdpbG "Powermenu") 
