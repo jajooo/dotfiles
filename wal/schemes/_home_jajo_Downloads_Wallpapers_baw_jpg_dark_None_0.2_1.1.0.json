@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jajo/Downloads/Wallpapers/baw.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050505",
+        "foreground": "#f1f1f1",
+        "cursor": "#f1f1f1"
+    },
+    "colors": {
+        "color0": "#050505",
+        "color1": "#865959",
+        "color2": "#c5a8a8",
+        "color3": "#d2bbbb",
+        "color4": "#e0d1d1",
+        "color5": "#ede4e4",
+        "color6": "#f4efef",
+        "color7": "#f1f1f1",
+        "color8": "#a8a8a8",
+        "color9": "#865959",
+        "color10": "#c5a8a8",
+        "color11": "#d2bbbb",
+        "color12": "#e0d1d1",
+        "color13": "#ede4e4",
+        "color14": "#f4efef",
+        "color15": "#f1f1f1"
+    }
+}

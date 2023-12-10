@@ -1,0 +1,21 @@
+set $wallpaper /home/jajo/Wallpapers/minimal.jpg
+
+set $background #102130
+set $foreground #e0edf5
+
+set $color0 #102130
+set $color1 #85bfd6
+set $color2 #84bad6
+set $color3 #9eccde
+set $color4 #b2d6e5
+set $color5 #c2deea
+set $color6 #cfdcef
+set $color7 #e0edf5
+set $color8 #9ca5ab
+set $color9 #85bfd6
+set $color10 #84bad6
+set $color11 #9eccde
+set $color12 #b2d6e5
+set $color13 #c2deea
+set $color14 #cfdcef
+set $color15 #e0edf5

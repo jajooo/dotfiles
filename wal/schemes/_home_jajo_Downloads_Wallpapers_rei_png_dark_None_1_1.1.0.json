@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jajo/Downloads/Wallpapers/rei.png",
+    "alpha": "100",
+    "special": {
+        "background": "#191c20",
+        "foreground": "#d5d8de",
+        "cursor": "#d5d8de"
+    },
+    "colors": {
+        "color0": "#191c20",
+        "color1": "#006adf",
+        "color2": "#006ef4",
+        "color3": "#ff0292",
+        "color4": "#0f7dfe",
+        "color5": "#4284ff",
+        "color6": "#7aa3ff",
+        "color7": "#d5d8de",
+        "color8": "#95979b",
+        "color9": "#006adf",
+        "color10": "#006ef4",
+        "color11": "#ff0292",
+        "color12": "#0f7dfe",
+        "color13": "#4284ff",
+        "color14": "#7aa3ff",
+        "color15": "#d5d8de"
+    }
+}

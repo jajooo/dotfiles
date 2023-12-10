@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jajo/Downloads/Wallpapers/solarized2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111111",
+        "foreground": "#f0e9d4",
+        "cursor": "#f0e9d4"
+    },
+    "colors": {
+        "color0": "#111111",
+        "color1": "#ffca3c",
+        "color2": "#ffd461",
+        "color3": "#ffdd80",
+        "color4": "#ffe49d",
+        "color5": "#ffe49d",
+        "color6": "#ffe6a6",
+        "color7": "#f0e9d4",
+        "color8": "#a8a394",
+        "color9": "#ffca3c",
+        "color10": "#ffd461",
+        "color11": "#ffdd80",
+        "color12": "#ffe49d",
+        "color13": "#ffe49d",
+        "color14": "#ffe6a6",
+        "color15": "#f0e9d4"
+    }
+}

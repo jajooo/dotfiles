@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jajo/Downloads/Wallpapers/minimal.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#102130",
+        "foreground": "#e0edf5",
+        "cursor": "#e0edf5"
+    },
+    "colors": {
+        "color0": "#102130",
+        "color1": "#5dd0ff",
+        "color2": "#5cc7ff",
+        "color3": "#7ed9ff",
+        "color4": "#99e0ff",
+        "color5": "#ade6ff",
+        "color6": "#bfdaff",
+        "color7": "#e0edf5",
+        "color8": "#9ca5ab",
+        "color9": "#5dd0ff",
+        "color10": "#5cc7ff",
+        "color11": "#7ed9ff",
+        "color12": "#99e0ff",
+        "color13": "#ade6ff",
+        "color14": "#bfdaff",
+        "color15": "#e0edf5"
+    }
+}
