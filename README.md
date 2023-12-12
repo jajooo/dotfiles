@@ -3,24 +3,41 @@
 These are my personal dotfiles for configuring and customizing my Arch Linux. Feel free to use and modify them according to your preferences.
 
 # To-do list
-- [ ] Add dependencies
+- [x] Add dependencies
 - [ ] Fix scripts
 
 ## Getting Started
 
 To use these dotfiles, follow these steps:
 
-1. Clone the repository to your local machine:
-
-   ```
-   git clone https://github.com/jajooo/dotfiles.git
-   ```
-## Installing dependencies
-
-To make sure everything works, install these dependencies:
+1. Install Yay:
 
 ```
-soon...
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
+
+2. Install dependencies using Yay:
+
+```
+yay -S wlogout 
+```
+
+3. Install dependencies using Pacman:
+
+```
+sudo pacman -S abseil-cpp adobe-source-code-pro-fonts adwaita-cursors adwaita-icon-theme alsa-card-profiles at-spi2-core atkmm avahi cairo cairomm cantarell-fonts cdparanoia chrono-date dconf default-cursors desktop-file-utils double-conversion fmt fontconfig freetype2 fribidi glib-networking glibmm graphene graphite gsettings-desktop-schemas gst-plugins-base gst-plugins-base-libs gstreamer gtk-layer-shell gtk-update-icon-cache gtk3 gtkmm3 harfbuzz iso-codes json-glib jsoncpp kconfig5 kcoreaddons5 kitty-shell-integration knotifications5 kwindowsystem5 lcms2 libappindicator-gtk3 libb2 libcamera libcamera-ipa libcanberra libcloudproviders libcolord libcups libdaemon libdatrie libdbusmenu-glib libdbusmenu-gtk3 libdbusmenu-qt5 libdrm libepoxy libfdk-aac libfreeaptx libinput liblc3 libldac libmpdclient libmysofa libomxil-bellagio libpciaccess libpipewire librsync libsoup3 libstemmer libthai libtheora libunwind libwacom libwireplumber libxcomposite libxcursor libxdamage libxdg-basedir libxfixes libxft libxi libxinerama libxkbcommon libxkbcommon-x11 libxrandr libxrender libxshmfence libxtst libxxf86vm md4c mesa mtdev openal orc pango pangomm pipewire pipewire-audio pipewire-jack pipewire-session-manager pixman qt5-base qt5-declarative qt5-multimedia qt5-speech qt5-translations qt5-wayland qt5-x11extras qt6-base qt6-translations sbc serd sndio sord sound-theme-freedesktop sratom startup-notification tracker3 tslib upower vulkan-headers vulkan-icd-loader wayland webrtc-audio-processing wireplumber xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-xrm xkeyboard-config zix copyq dunst fish kitty neofetch qt5ct qt6ct ranger waybar tdb wofi rofi python-pywal
+```
+
+4. Install omf:
+
+```
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+
+5. Clone the repository:
+
+```
+git clone https://github.com/jajooo/dotfiles.git
 ```
 
 ## Images
