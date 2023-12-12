@@ -2,6 +2,10 @@
 
 These are my personal dotfiles for configuring and customizing my Arch Linux. Feel free to use and modify them according to your preferences.
 
+## To-do list
+- [ ] Add dependencies
+- [ ] Fix scripts
+
 ## Getting Started
 
 To use these dotfiles, follow these steps:
