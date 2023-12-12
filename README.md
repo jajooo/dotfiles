@@ -8,7 +8,12 @@ These are my personal dotfiles for configuring and customizing my Arch Linux. Fe
 
 ## Getting Started
 
-To use these dotfiles, follow these steps:
+### If you want to use just the dotfiles without the theme changer script, just clone the repository: 
+```
+git clone https://github.com/jajooo/dotfiles.git
+```
+
+### To use these dotfiles with the theme changer script, follow these steps:
 
 1. Install Yay:
 
