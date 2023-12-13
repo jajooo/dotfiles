@@ -7,7 +7,8 @@
 # To-do list
 - [x] Add dependencies
 - [x] Fix scripts
-- [ ] Add vim configuration files
+- [ ] Fix variables in config files
+- [ ] Add vim config files
 
 ## Getting Started
 
