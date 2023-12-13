@@ -1,10 +1,12 @@
-# Arch Linux Hyprland dotfiles
+<h1 align="center">Arch Linux Hyprland dotfiles</h1>
 
-These are my personal dotfiles for configuring and customizing my Arch Linux. Feel free to use and modify them according to your preferences.
+<p align="center">My personal dotfiles.</p>
+
+![2023-12-11-171507_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/b1cf3e7d-5e2b-46d2-ac5f-67ba2fa52344)
 
 # To-do list
 - [x] Add dependencies
-- [ ] Fix scripts
+- [x] Fix scripts
 
 ## Getting Started
 
@@ -34,7 +36,13 @@ sudo pacman -S abseil-cpp adobe-source-code-pro-fonts adwaita-cursors adwaita-ic
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
 
-5. Clone the repository:
+5. Install Archdroid icon theme:
+
+```
+git clone https://github.com/GreenRaccoon23/archdroid-icon-theme.git && cd archdroid-icon-theme && chmod +x archdroid-icon-theme.install && bash archdroid-icon-theme.install
+```
+
+6. Clone the repository:
 
 ```
 git clone https://github.com/jajooo/dotfiles.git
