@@ -10,18 +10,18 @@ choice=$(echo -e "$options" | wofi --dmenu --insensitive --sort-order alphabetic
 
 case "$choice" in
     "$option1")
-        theme_folder="/home/jajo/.config/waybar/themes/Borders"
+        theme_folder="$HOME/.config/waybar/themes/Borders"
         ;;
     "$option2")
-        theme_folder="/home/jajo/.config/waybar/themes/Slim"
+        theme_folder="$HOME/.config/waybar/themes/Slim"
         ;;
 esac
 
-backup_folder="/home/jajo/.config/waybar/backup"
+backup_folder="$HOME/.config/waybar/backup"
 mkdir -p "$backup_folder"
-cp /home/jajo/.config/waybar/config /home/jajo/.config/waybar/style.css "$backup_folder"
+cp $HOME/.config/waybar/config $HOME/.config/waybar/style.css "$backup_folder"
 
-cp "$theme_folder/config" /home/jajo/.config/waybar/
-cp "$theme_folder/style.css" /home/jajo/.config/waybar/
+cp "$theme_folder/config" $HOME/.config/waybar/
+cp "$theme_folder/style.css" $HOME/.config/waybar/
 
-bash /home/jajo/Waybar/kill.sh
+bash $HOME/scripts/kill.sh
