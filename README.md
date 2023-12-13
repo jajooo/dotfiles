@@ -10,7 +10,7 @@
 - [ ] Fix variables in config files
 - [ ] Add vim config files
 
-## Getting Started
+# Getting Started
 
 ### To use these dotfiles, follow these steps:
 
