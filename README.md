@@ -9,6 +9,7 @@
 - [x] Fix scripts
 - [ ] Fix variables in config files
 - [ ] Add vim config files
+- [ ] Add more config files
 
 # Getting Started
 
