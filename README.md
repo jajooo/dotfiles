@@ -28,7 +28,7 @@ cd ~/dotfiles/
 3. Run the install script
 
 ```
-chmod +x install.sh && ./install.sh
+./install.sh
 ```
 
 ## Images
