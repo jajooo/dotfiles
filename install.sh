@@ -24,8 +24,8 @@ if [ "$choice" == "y" ]; then
         cd ~
         git clone https://github.com/GreenRaccoon23/archdroid-icon-theme.git && cd archdroid-icon-theme && chmod +x archdroid-icon-theme.install && bash archdroid-icon-theme.install
         cd ~
-        echo "Done"
-        sleep 5
+        echo "Installation completed"
+        sleep 10
         exit
 elif [ "$choice" == "n" ]; then
     echo "Exiting."
