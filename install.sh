@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 cat ascii.txt
 echo
 echo
