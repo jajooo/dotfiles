@@ -19,10 +19,10 @@
 git clone https://github.com/jajooo/dotfiles.git
 ```
 
-2. Change directory to ~/.dotfiles/
+2. Change directory to ~/dotfiles/
 
 ```
-cd ~/.dotfiles/
+cd ~/dotfiles/
 ```
 
 3. Run the install script
