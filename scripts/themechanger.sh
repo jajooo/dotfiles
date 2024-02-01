@@ -4,6 +4,7 @@ option1="Lain Theme"
 option2="Rei Theme"
 option3="Minimal Theme"
 option4="B&W Theme"
+option5="Unit-02 Theme"
 
 
 hyprland_config="$HOME/.config/hypr/hyprland.conf"
@@ -15,9 +16,10 @@ kdeglobals_config="$HOME/.config/kdeglobals"
 options="$option1\n"
 options="$options$option2\n"
 options="$options$option3\n"
-options="$options$option4"
+options="$options$option4\n"
+options="$options$option5"
 
-choice=$(echo -e "$options" | wofi --dmenu --insensitive --sort-order alphabetical --lines 7 --width 500 --prompt "")
+choice=$(echo -e "$options" | wofi --dmenu --insensitive --sort-order alphabetical --lines 8 --width 500 --prompt "")
 
 case $choice in
     $option1)
@@ -95,5 +97,24 @@ case $choice in
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh
-        ;;        
+        ;;     
+    $option5)
+        sleep 0.1
+        wal -i $HOME/Wallpapers/Unit-02.png
+        swww init
+        swww img Wallpapers/Unit-02.png -t wipe --transition-fps 60
+        sed -i 's|col.active_border = .*|col.active_border = rgba(a5452dee) rgba(a5452dee) 45deg|' "$hyprland_config"
+        sed -i 's|col.inactive_border = .*|col.inactive_border = rgba(58201aee)|' "$hyprland_config"
+        sed -i 's|background = .*|background = "#100f0f"|' "$dunst_config"
+        sed -i 's|foreground = .*|foreground = "#A5452D"|' "$dunst_config"
+        sed -i 's|frame_color = .*|frame_color = "#A5452D"|' "$dunst_config"
+        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt5ct/colors/Unit-02.conf|' "$qt5ct_config"
+        sed -i 's|icon_theme=.*|icon_theme=Archdroid-DeepOrangeDark|' "$qt5ct_config"
+        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Unit-02.conf|' "$qt6ct_config"
+        sed -i 's|icon_theme=.*|icon_theme=Archdroid-DeepOrangeDark|' "$qt6ct_config"
+        sed -i 's|BackgroundNormal=.*|BackgroundNormal=#100f0f|' "$kdeglobals_config"
+        pkill dunst
+        dunst
+        bash $HOME/scripts/kill.sh
+        ;;   
 esac

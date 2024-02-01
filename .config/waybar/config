@@ -6,8 +6,8 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/media"],
-    "modules-right": ["pulseaudio", "keyboard-state", "hyprland/language", "network", "backlight", "battery", "clock"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "keyboard-state", "network", "backlight", "battery"],
     // Modules configuration
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -93,7 +93,7 @@
     "clock": {
         // "timezone": "America/New_York",
         //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%H:%M} ",
+        "format": " {:%H:%M | %d.%m.%Y} ",
         "format-icons": [""],
         "tooltip": true,
         "tooltip-format": "{:%A-%d-%m-%Y}",

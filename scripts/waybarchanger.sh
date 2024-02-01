@@ -2,18 +2,28 @@
 
 option1="Borders"
 option2="Slim"
+option3="Round"
 
 options="$option1\n"
-options="$options$option2"
+options="$options$option2\n"
+options="$options$option3"
+
+hyprland_config="$HOME/.config/hypr/hyprland.conf"
 
 choice=$(echo -e "$options" | wofi --dmenu --insensitive --sort-order alphabetical --lines 6 --width 500 --prompt "")
 
 case "$choice" in
     "$option1")
         theme_folder="$HOME/.config/waybar/themes/Borders"
+        sed -i 's|rounding = .*|rounding = 5|' "$hyprland_config"
         ;;
     "$option2")
         theme_folder="$HOME/.config/waybar/themes/Slim"
+        sed -i 's|rounding = .*|rounding = 5|' "$hyprland_config"
+        ;;
+    "$option3")
+        theme_folder="$HOME/.config/waybar/themes/Round"
+        sed -i 's|rounding = .*|rounding = 13|' "$hyprland_config"
         ;;
 esac
 
