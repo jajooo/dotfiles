@@ -1,14 +1,9 @@
-<h1 align="center">Arch Linux Hyprland dotfiles</h1>
+<h1 align="center">Arch Linux Hyprland dotfiles V2</h1>
 
 <p align="center">My personal dotfiles.</p>
 
-![2023-12-11-171507_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/b1cf3e7d-5e2b-46d2-ac5f-67ba2fa52344)
+![2024-02-01-172221_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/884bc73d-1f56-4312-a49b-42d0d91aec29)
 
-# To-do list
-- [x] Add dependencies
-- [x] Fix scripts
-- [ ] Fix variables in config files
-- [ ] Add vim config files
 
 # Getting Started
 
@@ -51,14 +46,12 @@ git clone https://github.com/jajooo/dotfiles.git
 ```
 
 ## Images
+![2024-02-01-172221_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/03d0760b-6828-489a-bf38-8ab4e29c116a)
+![2024-02-01-172357_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/eb4a29bc-bfc2-4d36-9657-d1455a9ceda3)
+![2024-02-01-172520_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/58e273ec-0cdd-4444-ac36-8d81ad4dcb6b)
+![2024-02-01-172838_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/e9bd0af7-4c29-4a49-8138-1790a49a0938)
+![2024-02-01-172715_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/9f419d8b-6440-4e0b-923b-3efc2ed36eb3)
 
-![2023-12-11-171451_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/aac7a046-1f0c-4f3b-b6fb-9624a21b9bd6)
-![2023-12-11-171507_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/b1cf3e7d-5e2b-46d2-ac5f-67ba2fa52344)
-![2023-12-11-171527_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/ef1dd674-b49d-4c36-8df7-3671ceb47601)
-![2023-12-11-171542_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/b1f1f130-f9c8-4eca-9982-f39ce299dae2)
 
 
-## Video
-
-https://github.com/jajooo/dotfiles/assets/93209510/a1dadcca-e4cd-4491-b3f7-1bc64538fc0b
 
