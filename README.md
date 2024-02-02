@@ -2,7 +2,7 @@
 
 <p align="center">My personal dotfiles.</p>
 
-![2024-02-01-172221_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/884bc73d-1f56-4312-a49b-42d0d91aec29)
+![2024-02-02-114637_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/ae86c5cf-0f07-4a78-a70e-8b9bfad1e9dc)
 
 
 # Getting Started
@@ -46,11 +46,14 @@ git clone https://github.com/jajooo/dotfiles.git
 ```
 
 ## Images
-![2024-02-01-172221_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/03d0760b-6828-489a-bf38-8ab4e29c116a)
-![2024-02-01-172357_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/eb4a29bc-bfc2-4d36-9657-d1455a9ceda3)
-![2024-02-01-172520_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/58e273ec-0cdd-4444-ac36-8d81ad4dcb6b)
-![2024-02-01-172838_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/e9bd0af7-4c29-4a49-8138-1790a49a0938)
-![2024-02-01-172715_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/9f419d8b-6440-4e0b-923b-3efc2ed36eb3)
+![2024-02-02-114637_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/9bcd8343-3d2b-409a-9159-b561c74e866d)
+![2024-02-02-114814_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/5a74274c-f836-4b7e-9644-1331ac96f54c)
+![2024-02-02-115012_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/13e3c53d-5b22-4732-9270-d17a1e761e7c)
+![2024-02-02-115156_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/d1ec9d0c-428e-4815-a71b-aa18f6e94d4f)
+![2024-02-02-115339_hyprshot](https://github.com/jajooo/dotfiles/assets/93209510/b995ea6e-2f04-4d43-82d0-f3ac09409153)
+
+
+
 
 
 
