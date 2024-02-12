@@ -4,7 +4,7 @@ option1="Lain Theme"
 option2="Rei Theme"
 option3="Minimal Theme"
 option4="B&W Theme"
-option5="Unit-02 Theme"
+option5="Unit-01 Theme"
 
 
 hyprland_config="$HOME/.config/hypr/hyprland.conf"
@@ -12,6 +12,7 @@ dunst_config="$HOME/.config/dunst/dunstrc"
 qt5ct_config="$HOME/.config/qt5ct/qt5ct.conf"
 qt6ct_config="$HOME/.config/qt6ct/qt6ct.conf"
 kdeglobals_config="$HOME/.config/kdeglobals"
+
 
 options="$option1\n"
 options="$options$option2\n"
@@ -37,6 +38,7 @@ case $choice in
         sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Lain.conf|' "$qt6ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-Brown|' "$qt6ct_config"
         sed -i 's|BackgroundNormal=.*|BackgroundNormal=#030000|' "$kdeglobals_config"
+        ln -s $HOME/.cache/wal/colors-discord.css ~/.config/Vencord/themes/pywal-vencord.theme.css
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh
@@ -56,6 +58,7 @@ case $choice in
         sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Rei.conf|' "$qt6ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-BlueGrey|' "$qt6ct_config"
         sed -i 's|BackgroundNormal=.*|BackgroundNormal=#191c20|' "$kdeglobals_config"
+        ln -s $HOME/.cache/wal/colors-discord.css ~/.config/Vencord/themes/pywal-vencord.theme.css
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh
@@ -75,6 +78,7 @@ case $choice in
         sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Minimal.conf|' "$qt6ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-Blue|' "$qt6ct_config"
         sed -i 's|BackgroundNormal=.*|BackgroundNormal=#102130|' "$kdeglobals_config"
+        ln -s $HOME/.cache/wal/colors-discord.css ~/.config/Vencord/themes/pywal-vencord.theme.css
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh
@@ -94,25 +98,27 @@ case $choice in
         sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/BAW.conf|' "$qt6ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-Grey|' "$qt6ct_config"
         sed -i 's|BackgroundNormal=.*|BackgroundNormal=#050505|' "$kdeglobals_config"
+        ln -s $HOME/.cache/wal/colors-discord.css ~/.config/Vencord/themes/pywal-vencord.theme.css
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh
         ;;     
     $option5)
         sleep 0.1
-        wal -i $HOME/Wallpapers/Unit-02.png
+        wal -i $HOME/Wallpapers/Unit-01.png
         swww init
-        swww img Wallpapers/Unit-02.png -t wipe --transition-fps 60
+        swww img Wallpapers/Unit-01.png -t wipe --transition-fps 60
         sed -i 's|col.active_border = .*|col.active_border = rgba(a5452dee) rgba(a5452dee) 45deg|' "$hyprland_config"
         sed -i 's|col.inactive_border = .*|col.inactive_border = rgba(58201aee)|' "$hyprland_config"
         sed -i 's|background = .*|background = "#100f0f"|' "$dunst_config"
         sed -i 's|foreground = .*|foreground = "#A5452D"|' "$dunst_config"
         sed -i 's|frame_color = .*|frame_color = "#A5452D"|' "$dunst_config"
-        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt5ct/colors/Unit-02.conf|' "$qt5ct_config"
+        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt5ct/colors/Unit-01.conf|' "$qt5ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-DeepOrangeDark|' "$qt5ct_config"
-        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Unit-02.conf|' "$qt6ct_config"
+        sed -i 's|color_scheme_path=.*|color_scheme_path=$HOME/.config/qt6ct/colors/Unit-01.conf|' "$qt6ct_config"
         sed -i 's|icon_theme=.*|icon_theme=Archdroid-DeepOrangeDark|' "$qt6ct_config"
         sed -i 's|BackgroundNormal=.*|BackgroundNormal=#100f0f|' "$kdeglobals_config"
+        ln -s $HOME/.cache/wal/colors-discord.css ~/.config/Vencord/themes/pywal-vencord.theme.css
         pkill dunst
         dunst
         bash $HOME/scripts/kill.sh

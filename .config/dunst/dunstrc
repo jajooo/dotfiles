@@ -1,4 +1,4 @@
-@import url('/home/jajo/.cache/wal/colors-waybar.css');
+@import url('~/.cache/wal/colors-waybar.css');
 
 
 # See dunst(5) for all configuration options
